@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+header,footer{
+    background-color:  #1F232F;
+}
+
+header ul a{
+    color: white;
+    position: relative;
+    top: 60px; 
+    font-size: 20px;
+    padding: 20px;
+    text-decoration: none;
+}
+
+header ul a:hover{
+    color:#D7B46A;
+    text-decoration: underline;
+}
+
+header img{
+    height: 140px;
+}
+
+.navbar-collapse{
+    height: 300px;
+}
+
+section .about-text p{
+    color:rgb(78, 75, 75);
+    padding: 0px 120px 0px 120px; 
+}
+
+section .album button{
+    font-weight: 600;
+    color: white;
+    background: rgba(102, 182, 67, 0.486);
+    background: linear-gradient(90deg, rgb(49, 119, 46) 0%, rgba(60,167,13,0.5690651260504201) 47%, rgb(46, 161, 90) 100%);
+}
+
+section .album button a{
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+} 
+
+section .map button{
+    font-weight: 600;
+    color: white;
+    background: rgba(155, 38, 96, 0.486);
+    background: linear-gradient(90deg, rgb(194, 44, 114) 0%, rgba(139, 34, 87, 0.849) 47%, rgb(207, 74, 119) 100%);
+}
+
+section .map button a{
+    text-decoration: none;
+    color: white;
+}
+
+.form{
+    padding: 0px 120px 0px 120px;
+}
+
+footer ul li a i{
+   font-size: 25px;
+   padding: 20px;
+}
+
+footer ul li a i:hover{
+    color:#D7B46A; 
+}
+
+
+    @media (max-width: 991px) {
+        header img{
+            height: 90px;
+        }
+        .maps{
+            width: 400px;
+        }
+        .video{
+            width: 400px;
+        }
+    }
+    
+    @media (max-width: 768px) {
+        header ul a{
+            color: white;
+            position: relative;
+            top: 0px; 
+            font-size: 20px;
+            text-decoration: none;
+        }
+        
+    }
+    @media (max-width: 450px) {
+        .maps{
+            width: 200px;
+        }
+
+        .video{
+            width: 200px;
+        }
+
+        section .about-text p{
+            padding: 0;
+        }
+
+        header ul a{
+            color: white;
+            position: relative;
+            top: 0px; 
+            font-size: 20px;
+            text-decoration: none;
+        }
+
+        .form{
+            padding: 0;
+        }
+
+    }
+    @media (max-width: 200px) {
+        header img{
+            height: 30px;
+        }
+        .maps{
+            width: 130px;
+        }
+        .video{
+            width: 130px;
+        }
+        section .about-text {
+            padding: 0;
+        }
+         header ul a{
+            color: white;
+            position: relative;
+            top: 0px; 
+            font-size: 20px;
+            text-decoration: none;
+        }
+        .form{
+            padding: 0;
+        }
+     
+    }
+
+
+
+    
